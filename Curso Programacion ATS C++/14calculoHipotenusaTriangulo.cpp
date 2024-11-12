@@ -6,7 +6,7 @@ triangulo rectangulo y escriba en la salida estandar su hipotenusa
 using namespace std;
 
 int main(){
-    float catOpuesto, catAdyacente, hipotenusa= 0;
+    float catOpuesto = 0, catAdyacente = 0, hipotenusa= 0;
     cout<<"Indica el valor del cateto opuesto :"<<endl;
     cin>>catOpuesto;
     cout<<"Indica el valor del cateto adyacente :"<<endl;

@@ -6,7 +6,7 @@ x= (-b +- sqrt(b^2-4ac))/(2a)*/
 using namespace std;
 
 int main(){
-    float a, b, c, resultado1, resultado2, discriminante = 0;
+    float a = 0, b = 0, c = 0, resultado1 = 0, resultado2 = 0, discriminante = 0;
     cout<<"Indique el valor de a: "<<endl;
     cin>>a;
     cout<<"Indique el valor de b: "<<endl;

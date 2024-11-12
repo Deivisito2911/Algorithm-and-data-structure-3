@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-    float a, b, resultado = 0;
+    float a = 0, b = 0, resultado = 0;
 
     cout<<"Indicame el valor de a: "<<endl;
     cin>>a;

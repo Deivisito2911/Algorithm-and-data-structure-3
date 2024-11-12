@@ -5,7 +5,7 @@ unos valores dados de x e y (f(x,y) = sqrt(x)/y^2-1)*/
 using namespace std;
 
 int main(){
-    float x, y, resultado = 0;
+    float x = 0, y = 0, resultado = 0;
     cout<<"Introduzca el valor de x: "<<endl;
     cin>>x;
     cout<<"Introduzca el valor de y: "<<endl;

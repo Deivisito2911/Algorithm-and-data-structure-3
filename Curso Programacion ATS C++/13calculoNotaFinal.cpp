@@ -8,7 +8,7 @@ salida estandar su nota final.
 using namespace std;
 
 int main(){
-    float practica, teorica, participacion, final = 0;
+    float practica = 0, teorica = 0, participacion = 0, final = 0;
     cout<<"Indica la nota de practica : "<<endl;
     cin>>practica;
     cout<<"Indica la nota de teorica : "<<endl;

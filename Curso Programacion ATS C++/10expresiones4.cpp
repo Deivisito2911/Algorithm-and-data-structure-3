@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    float a, b, c, d, resultado = 0;
+    float a = 0, b = 0, c = 0, d = 0, resultado = 0;
     cout<<"Introduzca el valor de a: "<<endl;
     cin>>a;
     cout<<"Introduzca el valor de b: "<<endl;

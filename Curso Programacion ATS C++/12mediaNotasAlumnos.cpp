@@ -5,7 +5,7 @@ los cuatro alumnos.
 using namespace std;
 
 int main(){
-    float nota, acumulador = 0;
+    float nota = 0, acumulador = 0;
     const int cantAlumnos = 4;
     for (int i = 0; i < cantAlumnos; i++){
         cout<<"Introduzca la nota del alumno "<<i+1<<":"<<endl;

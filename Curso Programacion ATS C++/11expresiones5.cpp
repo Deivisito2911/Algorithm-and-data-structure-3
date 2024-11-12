@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    float a, b, aux = 0;
+    float a = 0, b = 0, aux = 0;
     cout<<"Indica el valor de a: "<<endl;
     cin>>a;
     cout<<"Indica el valor de b: "<<endl;
