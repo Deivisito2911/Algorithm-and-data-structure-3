@@ -23,4 +23,5 @@ int main(){
     cin>>altura;
     cout<<"Datos de la persona: "<<endl;
     cout<<"Edad: "<<edad<<"\nSexo: "<<sexo<<"\nAltura: "<<altura<<endl;
+    return 0;
 }
