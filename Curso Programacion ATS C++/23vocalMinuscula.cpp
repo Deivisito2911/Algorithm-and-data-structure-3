@@ -10,10 +10,10 @@ int main(){
 
     switch (caracter){
     case 'a':
-    case 'b':
-    case 'c':
-    case 'd':
-    case 'e': 
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u': 
         cout<<"Es una vocal minuscula"<<endl;
         break;
     default:
