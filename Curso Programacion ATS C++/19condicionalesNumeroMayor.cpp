@@ -4,7 +4,7 @@ el mayor*/
 using namespace std;
 
 int main(){
-    int a = 0, b = 0;
+    float a = 0, b = 0;
     cout<<"Introduzca dos numeros: "<<endl;
     cin>>a>>b;
     if (a>b){
@@ -12,7 +12,7 @@ int main(){
     }else if (a<b){
         cout<<"El numero mayor es: "<<b<<endl;
         }else{
-            cout<<"Los numeros son iguales"<<endl;
+            cout<<"Los numeros son iguales, numero "<<a<<endl;
         }
     return 0;
 }
