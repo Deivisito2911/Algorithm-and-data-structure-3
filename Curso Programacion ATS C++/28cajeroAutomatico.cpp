@@ -15,11 +15,13 @@ int main(){
         cout<<"3. Consultar dinero de cuenta"<<endl;
         cout<<"4. Salir"<<endl;
         cin>>opc;
+        system("cls");
         switch (opc){
         case 1:
             cout<<"Indique el monto que ingresara a su cuenta: "<<endl;
             cin>>aux;
             saldo+=aux;
+            cout<<"Su nuevo saldo es ["<<saldo<<"]"<<endl;
             break;
         case 2:
             cout<<"Indique el monto que retirara: "<<endl;
@@ -28,7 +30,7 @@ int main(){
                 cout<<"El saldo que desea retirar es mayor al disponible en la cuenta"<<endl;
             }else{
                 saldo-=aux;
-                cout<<"Su saldo es ["<<saldo<<"]"<<endl;
+                cout<<"Su nuevo saldo es ["<<saldo<<"]"<<endl;
             }
             break;
         case 3:
@@ -41,6 +43,8 @@ int main(){
             cout<<"Opcion incorrecta"<<endl;
             break;
         }
+        system("pause");
+        system("cls");
     } while (opc != 4);
     return 0;
 }
