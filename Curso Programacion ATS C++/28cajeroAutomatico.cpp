@@ -9,7 +9,7 @@ int main(){
     float saldo = saldo_inicial, aux = 0;
     int opc = 0;
     do{
-        cout<<"\t Bienvenido a Banco Daniela"<<endl;
+        cout<<"\t Bienvenido a Banco de Venezuela"<<endl;
         cout<<"1. Ingresar dinero en cuenta"<<endl;
         cout<<"2. Retirar dinero en cuenta"<<endl;
         cout<<"3. Consultar dinero de cuenta"<<endl;
