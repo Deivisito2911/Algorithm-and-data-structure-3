@@ -3,6 +3,7 @@ grado de la forma ax^2+bx+c =0 teniendo en cuenta:
 x= (-b +- sqrt(b^2-4ac))/(2a)*/
 #include<iostream>
 #include<cmath>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -26,5 +27,6 @@ int main(){
             cout<<"La ecuacion no tiene soluciones reales"<<endl;
         }
     }
+    getch();
     return 0;
 }

@@ -5,6 +5,7 @@ que lea de la entrada estandar. Las tres notas de un alumno y escriba en la
 salida estandar su nota final.
 */
 #include<iostream>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -20,5 +21,6 @@ int main(){
     participacion*= 0.10;
     final = practica+teorica+participacion;
     cout<<"La nota final es : "<<final<<endl;
+    getch();
     return 0;
 }

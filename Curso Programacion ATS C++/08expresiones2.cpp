@@ -1,5 +1,6 @@
 //Escribe la siguiente expresion matematica como expresion en C++ a+b/c+d
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -15,5 +16,6 @@ int main(){
     cin>>d;
     resultado = ((a+b)/(c+d));
     cout<<"El resultado es: "<<resultado;
+    getch();
     return 0;
 }

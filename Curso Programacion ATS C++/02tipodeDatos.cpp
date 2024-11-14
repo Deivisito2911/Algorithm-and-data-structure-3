@@ -1,7 +1,7 @@
 //Tipos de datos
 
 #include<iostream>
-
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -13,6 +13,6 @@ int main(){
     cout<<decimal<<endl;
     cout<<mayor<<endl;
     cout<<letra<<endl;
-
+    getch();
     return 0;
 }

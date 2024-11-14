@@ -2,6 +2,7 @@
 producto y muestre en la salida estandar el precio del producto al
 aplicarle el IVA */
 #include <iostream>
+#include <conio.h>
 
 using namespace std;
 
@@ -14,5 +15,6 @@ int main(){
     cout<<"\nIndique le precio del producto : "<<endl;
     cin>>precioProducto;
     cout<<"El precio de ["<<nombreProducto<<"] es : "<<(precioProducto+(precioProducto*IVA));
+    getch();
     return 0;
 }

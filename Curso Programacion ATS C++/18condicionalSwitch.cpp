@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -25,5 +26,6 @@ int main(){
         cout<<"El numero no esta en el intervalo"<<endl;
         break;
     }
+    getch();
     return 0;
 }

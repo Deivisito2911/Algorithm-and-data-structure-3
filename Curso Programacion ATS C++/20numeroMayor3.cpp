@@ -1,6 +1,7 @@
 /*Escriba un programa que lea tres numeros y determine cual de ellos
 es el mayor*/
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -18,5 +19,6 @@ int main(){
         mayor = n3;
     }
     cout<<"El numero mayor es: "<<mayor<<endl;
+    getch();
     return 0;
 }

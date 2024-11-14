@@ -2,6 +2,7 @@
 en la salida estandar si el caracter es una vocal minuscula, es una vocal
 mayuscula o no es una vocal*/
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -23,5 +24,6 @@ int main(){
         break;
         default: cout<<"No es una vocal"<<endl;
     }
+    getch();
     return 0;
 }

@@ -2,6 +2,7 @@
 numero par o impar */
 
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -16,5 +17,6 @@ int main(){
         }else{
             cout<<"El numero es impar"<<endl;
         }
+    getch();
     return 0;
 }

@@ -1,6 +1,7 @@
 //1. Escribe la siguiente expresioón como expresión en C++ a/b + 1
 
 #include<iostream>
+#include <conio.h>
 
 using namespace std;
 
@@ -14,5 +15,6 @@ int main(){
     resultado = (a/b) + 1;
     cout.precision(2);//redondear a menos decimales
     cout<<"El resultado es : "<<resultado;
+    getch();
     return 0;
 }

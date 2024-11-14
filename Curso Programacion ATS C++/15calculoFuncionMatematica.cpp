@@ -2,6 +2,7 @@
 unos valores dados de x e y (f(x,y) = sqrt(x)/y^2-1)*/
 #include<iostream>
 #include<cmath>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -12,5 +13,6 @@ int main(){
     cin>>y;
     resultado = (sqrt(x))/(pow(y,2)-1);
     cout<<"El resultado de la funcion es: "<<resultado<<endl;
+    getch();
     return 0;
 }

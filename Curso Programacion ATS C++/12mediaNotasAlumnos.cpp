@@ -2,6 +2,7 @@
 los cuatro alumnos.
 */
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -13,5 +14,6 @@ int main(){
         acumulador+=nota;
     }
     cout<<"EL promedio o media de las notas finales es: "<<acumulador/cantAlumnos<<endl;
+    getch();
     return 0;
 }

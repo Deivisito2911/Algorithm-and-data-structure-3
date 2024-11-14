@@ -2,6 +2,7 @@
 triangulo rectangulo y escriba en la salida estandar su hipotenusa
 */
 #include <iostream>
+#include <conio.h>
 #include <cmath>//Operaciones matematicas
 using namespace std;
 
@@ -13,6 +14,6 @@ int main(){
     cin>>catAdyacente;
     hipotenusa = sqrt(pow(catOpuesto,2)+pow(catAdyacente,2));
     cout<<"La hipotenusa es: "<<hipotenusa<<endl;
-
+    getch();
     return 0;
 }

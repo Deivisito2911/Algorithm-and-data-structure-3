@@ -2,6 +2,7 @@
 de 1000 dolares*/
 #include <iostream>
 #include <cstdlib>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -46,5 +47,6 @@ int main(){
         system("pause");
         system("cls");
     } while (opc != 4);
+    getch();
     return 0;
 }

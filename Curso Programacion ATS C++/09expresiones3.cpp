@@ -1,6 +1,7 @@
 //3. Escribe la siguiente expresion como expresion en c++ a+b/c / d+e/f
 
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -19,5 +20,6 @@ int main(){
     cin>>f;
     resultado = ((a+(b/c))/(d+(e/f)));
     cout<<"El resultado es: "<<resultado<<endl;
+    getch();
     return 0;
 }

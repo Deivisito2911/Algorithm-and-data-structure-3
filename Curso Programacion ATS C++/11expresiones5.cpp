@@ -1,6 +1,7 @@
 //Escriba un fragmento de programa que intercambie los valores de dos variables
 
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -14,6 +15,6 @@ int main(){
     b = aux;
     cout<<"Valor actual de a: "<<a<<endl;
     cout<<"Valor actual de b: "<<b<<endl;
-
+    getch();
     return 0;
 }

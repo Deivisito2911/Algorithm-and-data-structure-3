@@ -7,6 +7,7 @@ una persona:
 Tras leer los datos, el programa debe mostrarlos en la salida estandar.*/
 
 #include <iostream>
+#include <conio.h>
 
 using namespace std;
 
@@ -14,7 +15,6 @@ int main(){
     int edad = 0;
     char sexo[10];
     float altura = 0;
-
     cout<<"Indiqueme la edad: "<<endl;
     cin>>edad;
     cout<<"Indiqueme su sexo: "<<endl;
@@ -23,5 +23,6 @@ int main(){
     cin>>altura;
     cout<<"Datos de la persona: "<<endl;
     cout<<"Edad: "<<edad<<"\nSexo: "<<sexo<<"\nAltura: "<<altura<<endl;
+    getch();
     return 0;
 }

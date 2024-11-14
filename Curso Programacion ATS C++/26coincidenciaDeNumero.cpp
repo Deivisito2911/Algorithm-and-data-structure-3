@@ -2,6 +2,7 @@
 debe leer un cuarto numero e indicar si el numero coincide con alguno de los
 introducidos con anterioridad*/
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -15,5 +16,6 @@ int main(){
     }else{
         cout<<"El numero no coincide con ninguno de los anteriores ingresados"<<endl;
     }
+    getch();
     return 0;
 }

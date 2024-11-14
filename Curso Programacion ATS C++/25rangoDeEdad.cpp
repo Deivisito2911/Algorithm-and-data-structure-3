@@ -2,6 +2,7 @@
 salida estandar si la edad introducida esta en el rango [18-25] */
 
 #include<iostream>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -14,5 +15,6 @@ int main(){
     }else{
         cout<<"Su edad no esta en el rango de 18-25"<<endl;
     }
+    getch();
     return 0;
 }

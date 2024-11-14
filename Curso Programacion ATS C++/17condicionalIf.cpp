@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 using namespace std;
 //operadores de condicionales ==, !=, >=, <=, <, >
 int main(){
@@ -10,5 +11,6 @@ int main(){
     }else{
         cout<<"El numero es cinco";
     }
+    getch();
     return 0;
 }

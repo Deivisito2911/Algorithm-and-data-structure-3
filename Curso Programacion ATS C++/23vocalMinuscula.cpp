@@ -1,6 +1,7 @@
 /*Escriba un programa que lea de la entrada estandar un caracter e indique
 en la salida estandar si el caracter es una vocal minuscula o no */
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -20,5 +21,6 @@ int main(){
         cout<<"No es una vocal minuscula"<<endl;
         break;
     }
+    getch();
     return 0;
 }

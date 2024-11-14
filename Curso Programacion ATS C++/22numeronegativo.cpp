@@ -1,5 +1,6 @@
 //Comprobar si un numero digitado por el usuario es positivo o negativo
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -13,5 +14,6 @@ int main(){
         }else{
             cout<<"El numero es positivo"<<endl;
         }
+    getch();
     return 0;
 }

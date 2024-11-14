@@ -7,6 +7,7 @@ X = 20
 V = 5
 I = 1*/
 #include<iostream>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -61,5 +62,6 @@ int main(){
         case 8: cout<<"VIII";break;
         case 9: cout<<"IX";break;
     }
+    getch();
     return 0;
 }
