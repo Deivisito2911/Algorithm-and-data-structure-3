@@ -7,7 +7,7 @@ using namespace std;
 
 int main(){
     int suma = 0, n = 0, resultado = 0;
-    cout<<"Indiqueme el valor de la suma: ";
+    cout<<"Indiqueme el valor de la suma: "<<endl;
     cin>>n;
     for (int i = 1; i <= n; i+=2){
         resultado= i-(i+1);
