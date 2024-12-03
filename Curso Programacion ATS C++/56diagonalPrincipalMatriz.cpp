@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
     const int fila = 3, columna = 3;
-    int matriz[fila][columna], contador = 0;
+    int matriz[fila][columna], contador = 5;
     for (int i = 0; i < fila; i++){
         for (int i2 = 0; i2 < columna; i2++){
             matriz[i][i2]=contador;
