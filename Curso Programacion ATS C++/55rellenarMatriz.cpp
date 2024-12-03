@@ -17,7 +17,7 @@ int main(){
     }
     for (int i = 0; i < filas; i++){
         for (int i2 = 0; i2 < columnas; i2++){
-            cout<<matriz[i][i2];
+            cout<<"["<<matriz[i][i2]<<"]";
         }
         cout<<endl;
     }
