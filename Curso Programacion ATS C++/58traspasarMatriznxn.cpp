@@ -12,7 +12,7 @@ int main(){
     srand(time(NULL));
     cout<<"Indicame el numero de filas: ";cin>>filas;
     cout<<"Indicame el numero de columnas: ";cin>>columnas;
-    int matriz[filas][columnas];
+    int matriz[filas][columnas], matriz2[filas][columnas];
     for (int i = 0; i < filas; i++){
         for (int i2 = 0; i2 < columnas; i2++){
             numero = 1 + rand()%(100);
@@ -21,7 +21,8 @@ int main(){
     }
     for (int i = 0; i < filas; i++){
         for (int i2 = 0; i2 < columnas; i2++){
-            cout<<"["<<matriz[i][i2]<<"]";
+            matriz2[i][i2] = matriz[i][i2];
+            cout<<"["<<matriz2[i][i2]<<"]";
         }
         cout<<endl;
     }
