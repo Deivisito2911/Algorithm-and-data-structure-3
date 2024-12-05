@@ -1,4 +1,7 @@
-/*Metodo burbuja*/
+/*Metodo burbuja
+    Si
+        numeroActual>numeroSiguiente
+            Cambio*/
 
 #include<iostream>
 #include<conio.h>
